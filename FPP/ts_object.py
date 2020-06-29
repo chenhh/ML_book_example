@@ -47,3 +47,7 @@ print(yy)
 2003-12    173
 Freq: M, dtype: int32
 """
+
+import matplotlib.pyplot as plt
+import seaborn as sns
+sns.tsplot(data=y)
